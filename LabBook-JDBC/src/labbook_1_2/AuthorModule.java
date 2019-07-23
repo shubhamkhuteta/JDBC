@@ -201,16 +201,14 @@ public class AuthorModule {
 							System.out.println(i1+" "+title);
 							i1++;
 						}
-						
-						
-						
+
 					}
 			
 				break;
 
 			case 6:
 				System.out.println("Enter Author Name : ");
-				String authorName = sc.next();
+				firstName = sc.next();
 				
 				System.out.println("Enter Author ID : ");
 				authorid = sc.nextInt();
